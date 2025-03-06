@@ -1,13 +1,27 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+.imgbox img {
+  width: 100%;
 }
 
-a:hover {
-  color: black;
+header {
+  padding: 30px 0;
 }
-/*# sourceMappingURL=style.css.map */
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #080303;
+  margin-bottom: 30px;
+}
+header .menu nav a {
+  font-size: 22px;
+  color: #fafafa;
+  margin-right: 20px;
+}
+header .menu .imgbox {
+  width: 150px;
+  height: 150px;
+}/*# sourceMappingURL=style.css.map */
