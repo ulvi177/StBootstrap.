@@ -51,6 +51,14 @@ header .menu .imgbox {
   font-weight: 700;
   margin-left: 100px;
 }
+#welcome .textbox .btn {
+  font-size: 20px;
+  background-color: rgb(209, 178, 25);
+  padding: 20px 40px;
+  margin: 50px 0 0 40px;
+  color: rgb(255, 255, 255);
+  margin-left: 450px;
+}
 #welcome .imgbox {
   width: 100%;
   height: 100%;
