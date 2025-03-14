@@ -94,41 +94,20 @@ header .menu .imgbox {
 #welcome .imgbox {
   width: 100%;
   height: 100%;
-  position: absolute;
-  z-index: -1;
-  left: 0px;
 }
-@media screen and (max-width: 992px) {
-  #welcome .textbox {
-    position: absolute;
-    left: 200px;
-    top: 200px;
-    color: rgb(255, 255, 255);
-  }
-  #welcome h2 {
-    font-size: 60px;
-    font-weight: 700;
-    margin-left: 200px;
-    margin-bottom: 20px;
-  }
-  #welcome h1 {
-    font-size: 80px;
-    font-weight: 700;
-    margin-left: 100px;
-  }
-  #welcome nav .btn {
-    font-size: 20px;
-    background-color: rgb(209, 178, 25);
-    padding: 20px 40px;
-    margin: 50px 0 0 40px;
-    color: rgb(255, 255, 255);
-    margin-left: 0px;
-  }
-  #welcome .imgbox {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    left: 0px;
-  }
+
+#services {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+#services .btn {
+  padding: 30px 30px;
+  margin: 10px 10px;
+  background-color: rgb(207, 169, 32);
+  border-radius: 150px;
+}
+#services .btn i {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
 }/*# sourceMappingURL=style.css.map */
